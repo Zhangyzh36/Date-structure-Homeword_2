@@ -16,7 +16,7 @@ int main()
 	
 	cout << "The possible results:" << endl;
 	railwaySwitching(numOfCars);
-	cout << count << " ways" << endl;
+	cout << endl << count << " ways in all." << endl;
 	return 0;
 }
 
