@@ -14,7 +14,7 @@ int main()
 	cout << "Please enter the number of cars:" << endl; 
 	cin >> numOfCars;
 	
-	cout << "The possible results:" << endl;
+	cout << endl << "The possible results:" << endl;
 	railwaySwitching(numOfCars);
 	cout << endl << count << " ways in all." << endl;
 	return 0;
