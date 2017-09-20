@@ -27,6 +27,8 @@ void railwaySwitching(int num)
 		arr[i] = i + 1;
 	
 	permutation(arr, 0, num);
+	
+	delete []arr;
 }
 
 void permutation(int *arr, int start, int size)
